@@ -1,0 +1,65 @@
+body {
+    margin: 0 20%;
+    border: 1px solid #DCDCDC;
+    padding: 20px;
+}
+figure {
+    margin-inline: 0;
+}
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+h1{
+    margin-block: 0;
+    color: #121212;
+    font-size: 2.125rem;
+    line-height: 1.15;
+    font-weight: 500;
+    font-family:    Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 36px;
+}
+
+h2{
+    font-family: GH Guardian Headline,Guardian Egyptian Web,Georgia,serif;
+    font-size: 1.0625rem;
+    line-height: 1.15;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 12px;
+    color: #121212;
+    margin-block: 0;
+}
+
+p{
+    margin-bottom: 1rem;
+    font-family: GuardianTextEgyptian,Guardian Text Egyptian Web,Georgia,serif;
+    font-size: 1.0625rem;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.inline-link {
+    text-decoration: none;
+    border-bottom: 1px solid #DCDCDC;
+    color: #C70000;
+}
+.inline-link:hover {
+    text-decoration: underline;
+    border: none;
+}
+
+.topic-link {
+    text-decoration: none;
+    color: #C70000;
+    background-color: transparent;
+    font-family: GH Guardian Headline,Guardian Egyptian Web,Georgia,serif;
+    font-size: 1.0625rem;
+    line-height: 1.15;
+    font-weight: 700;
+    word-break: break-word;
+}
+.topic-link:hover {
+    text-decoration: underline;
+}
